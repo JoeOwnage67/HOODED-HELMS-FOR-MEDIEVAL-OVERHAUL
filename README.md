@@ -1,2 +1,2 @@
-# WIP-art
+#MOHoodedHelms
 WIP addon for Medieval Overhaul
