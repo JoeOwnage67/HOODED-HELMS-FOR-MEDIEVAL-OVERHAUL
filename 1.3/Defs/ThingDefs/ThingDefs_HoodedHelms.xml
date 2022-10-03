@@ -136,7 +136,7 @@
  <ThingDef ParentName="Joe_BascinetHoodedBase">
     <defName>Joe_OpenBascinetHooded</defName>
     <label>open bascinet</label>
-    <description>A thick plate hooded bascinet helmet, paired with a chainmail coif and padding. Provides less complete protection of the entire head, but is less hindering to see and difficult to breathe in than a closed bascinet.</description>
+    <description>A thick plate open-faced hooded bascinet helmet, paired with a chainmail coif and padding. Provides less complete protection of the entire head, but is less hindering to see and difficult to breathe in than a closed bascinet.</description>
     <graphicData>
       <texPath>OpenBascinetHooded/OpenBascinetHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -379,7 +379,7 @@
     <ThingDef ParentName="Joe_SalletHoodedBase">
     <defName>DankPyon_Headgear_SalletGryphon</defName>
     <label>open sallet</label>
-    <description>A sleek hooded helmet, paired with a chainmail coif and padding. Lightweight and protective, the open face provides less complete protection of the entire head, but is less hindering to vision and breathing than a closed Sallet.</description>
+    <description>A sleek open-faced hooded helmet, paired with a chainmail coif and padding. Lightweight and protective, the open face provides less complete protection of the entire head, but is less hindering to vision and breathing than a closed Sallet.</description>
     <graphicData>
       <texPath>SalletOpenHooded/SalletOpenHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
