@@ -9,6 +9,7 @@
   
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
+		<li MayRequire="Harkon.DF.Dusk">Harkon.DF.Dusk</li>
 	</loadAfter>
 
 	<modDependencies>
