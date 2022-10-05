@@ -1,1 +1,1095 @@
-1
+703 lines (646 sloc)  23.7 KB
+
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Plate Armor (uses Steel)-->
+<!-- ArmetFur -->
+<!-- Brown -->
+  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_ArmetFurBase">
+    <defName>Joe_ArmetFurBrown</defName>
+    <label>winter hooded armet (brown)</label>
+    <description>A finely crafted, ergonomically shaped hooded plate helmet that provides insulation against the cold, as well as complete protection of the entire head, face,, shaped in such a way to optimize deflection of what would otherwise be direct blows.</description>
+    <graphicData>
+      <texPath>Fur/ArmetFur/ArmetFurBrown/ArmetFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 
+      <shaderType>CutoutComplex</shaderType>	 
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <costList>
+        <steel>80</steel>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <MaxHitPoints>270</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>1.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+
+		<stuffCategories>
+			<li>Fabric</li>
+      <li>Leathery</li>
+		</stuffCategories>
+	  <costStuffCount>30</costStuffCount>
+
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+        
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/ArmetFur/ArmetFurBrown/ArmetFurBrown</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_LordHelmet</li>
+        <li>DankPyon_Champion</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- Black -->
+   <ThingDef ParentName="Joe_ArmetFurBase">
+        <defName>Joe_ArmetFurBlack</defName>
+        <label>winter hooded armet (black)</label>
+        <graphicData>
+            <texPath>Fur/ArmetFur/ArmetFurBlack/ArmetFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ArmetFur/ArmetFurBlack/ArmetFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- Gold -->
+   <ThingDef ParentName="Joe_ArmetFurBase">
+        <defName>Joe_ArmetFurGold</defName>
+        <label>winter hooded armet (gold)</label>
+        <graphicData>
+            <texPath>Fur/ArmetFur/ArmetFurGold/ArmetFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ArmetFur/ArmetFurGold/ArmetFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <!-- White -->
+   <ThingDef ParentName="Joe_ArmetFurBase">
+        <defName>Joe_ArmetFurWhite</defName>
+        <label>winter hooded armet (white)</label>
+        <graphicData>
+            <texPath>Fur/ArmetFur/ArmetFurWhite/ArmetFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ArmetFur/ArmetFurWhite/ArmetFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!--BascinetFur-->
+  <!-- Brown -->
+  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_BascinetFurBase">
+    <defName>Joe_BascinetFurBrown</defName>
+    <label>winter hooded closed bascinet helmet (brown)</label>
+    <description>A thick plate hooded bascinet helmet that provides insulation against the cold, coupled with a round-faced visor, paired with a chainmail coif and padding. Provides complete protection of the entire head, but is hindering to see and difficult to breathe in.</description>
+    <graphicData>
+      <texPath>Fur/BascinetFur/BascinetFurBrown/BascinetFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+       <costList>
+        <steel>80</steel>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+      <PainShockThreshold>0.10</PainShockThreshold>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+
+	<stuffCategories>
+			<li>Fabric</li>
+            <li>Leathery</li>
+		</stuffCategories>
+	  <costStuffCount>30</costStuffCount>
+
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+        
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/BascinetFur/BascinetFurBrown/BascinetFurBrown</wornGraphicPath>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_KnightHelmet</li>
+        <li>DankPyon_HedgeKnightHelmet</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- Black -->
+   <ThingDef ParentName="Joe_BascinetFurBase">
+        <defName>Joe_BascinetFurBlack</defName>
+        <label>winter hooded bascinet helmet (black)</label>
+        <graphicData>
+            <texPath>Fur/BascinetFur/BascinetFurBlack/BascinetFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/BascinetFur/BascinetFurBlack/BascinetFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- Gold -->
+   <ThingDef ParentName="Joe_BascinetFurBase">
+            <defName>Joe_BascinetFurGold</defName>
+        <label>winter hooded bascinet helmet (gold)</label>
+        <graphicData>
+            <texPath>Fur/BascinetFur/BascinetFurGold/BascinetFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/BascinetFur/BascinetFurGold/BascinetFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <!-- White -->
+   <ThingDef ParentName="Joe_BascinetFurBase">
+            <defName>Joe_BascinetFurWhite</defName>
+        <label>winter hooded bascinet helmet (white)</label>
+        <graphicData>
+            <texPath>Fur/BascinetFur/BascinetFurWhite/BascinetFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/BascinetFur/BascinetFurWhite/BascinetFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+
+    <!-- OpenBascinetFur -->
+ <ThingDef ParentName="Joe_BascinetFurBase" Name="Joe_OpenBascinetFurBase">
+    <defName>Joe_OpenBascinetFurBrown</defName>
+    <label>winter hooded open bascinet helmet (brown)</label>
+    <description>A thick plate open-faced hooded bascinet helmet that provides insulation against the cold, paired with a chainmail coif and padding. Provides less complete protection of the entire head, but is less hindering to see and difficult to breathe in than a closed bascinet.</description>
+    <graphicData>
+      <texPath>Fur/OpenBascinetFur/OpenBascinetFurBrown/OpenBascinetFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <recipeMaker>
+      <costList>
+        <steel>60</steel>
+      </costList>  
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+   
+   	<stuffCategories>
+			<li>Fabric</li>
+            <li>Leathery</li>
+		</stuffCategories>
+	  <costStuffCount>30</costStuffCount>
+
+ <apparel>
+      <wornGraphicPath>Fur/OpenBascinetFur/OpenBascinetFurBrown/OpenBascinetFurBrown</wornGraphicPath>
+	 <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_MercenaryHeavy</li>
+        <li>DankPyon_KnightHelmet</li>
+        <li>DankPyon_HedgeKnightHelmet</li>
+	  </tags>   
+ </apparel>
+</ThingDef>
+  
+     <!-- Black -->
+   <ThingDef ParentName="Joe_OpenBascinetFurBase">
+            <defName>Joe_OpenBascinetFurBlack</defName>
+        <label>winter hooded open bascinet helmet (black)</label>
+        <graphicData>
+            <texPath>Fur/OpenBascinetFur/OpenBascinetFurBlack/OpenBascinetFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/OpenBascinetFur/OpenBascinetFurBlack/OpenBascinetFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+    <!-- Gold -->
+   <ThingDef ParentName="Joe_OpenBascinetFurBase">
+            <defName>Joe_OpenBascinetFurGold</defName>
+        <label>winter hooded open bascinet helmet (gold)</label>
+        <graphicData>
+            <texPath>Fur/OpenBascinetFur/OpenBascinetFurGold/OpenBascinetFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/OpenBascinetFur/OpenBascinetFurGold/OpenBascinetFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+    <!-- White -->
+   <ThingDef ParentName="Joe_OpenBascinetFurBase">
+            <defName>Joe_OpenBascinetFurWhite</defName>
+        <label>winter hooded open bascinet helmet (white)</label>
+        <graphicData>
+            <texPath>Fur/OpenBascinetFur/OpenBascinetFurWhite/OpenBascinetFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/OpenBascinetFur/OpenBascinetFurWhite/OpenBascinetFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- GreatHelmHooded-->
+   <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_GreatHelmFurBase">
+    <defName>Joe_GreatHelmFurBrown</defName>
+    <label>winter hooded great helm (brown)</label>
+    <description>An early design of the close helm, which is worn over a very thickly padded fabric coif and covered by a hood that provides insulation against the cold. Provides excellent protection to the entire head, but, like with most full-face helmets, limits one's field of vision and constricts breathing when worn.</description>
+    <graphicData>
+      <texPath>Fur/GreatHelmFur/GreatHelmFurBrown/GreatHelmFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <costList>
+        <steel>80</steel>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+      <PainShockThreshold>0.10</PainShockThreshold>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+
+		<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>30</costStuffCount>
+
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+        
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/GreatHelmFur/GreatHelmFurBrown/GreatHelmFurBrown</wornGraphicPath>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_KnightHelmet</li>
+        <li>DankPyon_HedgeKnightHelmet</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+   <!-- Black -->
+   <ThingDef ParentName="Joe_GreatHelmFurBase">
+            <defName>Joe_GreatHelmFurBlack</defName>
+        <label>winter hooded great helm (black)</label>
+        <graphicData>
+            <texPath>Fur/GreatHelmFur/GreatHelmFurBlack/GreatHelmFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/GreatHelmFur/GreatHelmFurBlack/GreatHelmFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+    <!-- Gold -->
+   <ThingDef ParentName="Joe_GreatHelmFurBase">
+            <defName>Joe_GreatHelmFurGold</defName>
+        <label>winter hooded great helm (gold)</label>
+        <graphicData>
+            <texPath>Fur/GreatHelmFur/GreatHelmFurGold/GreatHelmFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/GreatHelmFur/GreatHelmFurGold/GreatHelmFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!-- White -->
+   <ThingDef ParentName="Joe_GreatHelmFurBase">
+            <defName>Joe_GreatHelmFurWhite</defName>
+        <label>winter hooded great helm (white)</label>
+        <graphicData>
+            <texPath>Fur/GreatHelmFur/GreatHelmFurWhite/GreatHelmFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/GreatHelmFur/GreatHelmFurWhite/GreatHelmFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!--KlappvisorBascinetFur-->
+  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_KlappvisorBascinetFurBase">
+    <defName>Joe_KlappvisorBascinetFurBrown</defName>
+    <label>winter hooded klappviser bascinet (brown)</label>
+    <description>A thick plate hooded bascinet helmet that provides insulation against the cold, coupled with a round-faced visor, paired with a chainmail coif and padding. Provides complete protection of the entire head, but is hindering to see and difficult to breathe in.</description>
+    <graphicData>
+      <texPath>Fur/KlappvisorBascinetFur/KlappvisorBascinetFurBrown/KlappvisorBascinetFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+       <costList>
+        <steel>80</steel>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+      <PainShockThreshold>0.10</PainShockThreshold>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+
+		<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>30</costStuffCount>
+
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+        
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/KlappvisorBascinetFur/KlappvisorBascinetFurBrown/KlappvisorBascinetFurBrown</wornGraphicPath>
+	     <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_KnightHelmet</li>
+        <li>DankPyon_HedgeKnightHelmet</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- Black -->
+   <ThingDef ParentName="Joe_KlappvisorBascinetFurBase">
+            <defName>Joe_KlappvisorBascinetFurBlack</defName>
+        <label>winter hooded great helm (black)</label>
+        <graphicData>
+            <texPath>Fur/GreatHelmFur/GreatHelmFurBlack/GreatHelmFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/GreatHelmFur/GreatHelmFurBlack/GreatHelmFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!-- Gold -->
+   <ThingDef ParentName="Joe_KlappvisorBascinetFurBase">
+            <defName>Joe_KlappvisorBascinetFurGold</defName>
+        <label>winter hooded great helm (gold)</label>
+        <graphicData>
+            <texPath>Fur/GreatHelmFur/GreatHelmFurGold/GreatHelmFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/GreatHelmFur/GreatHelmFurGold/GreatHelmFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+    <!-- White -->
+   <ThingDef ParentName="Joe_KlappvisorBascinetFurBase">
+            <defName>Joe_KlappvisorBascinetFurWhite</defName>
+        <label>winter hooded great helm (white)</label>
+        <graphicData>
+            <texPath>Fur/GreatHelmFur/GreatHelmFurWhite/GreatHelmFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/GreatHelmFur/GreatHelmFurWhite/GreatHelmFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- SalletOpenFur -->
+  <!-- Brown -->
+<ThingDef ParentName="Joe_SalletOpenHoodedBase" Name="Joe_SalletOpenFurBase">
+    <defName>Joe_SalletOpenFurBrown</defName>
+    <label>winter hooded open sallet (brown)</label>
+    <description>A sleek open-faced hooded helmet that provides insulation against the cold, paired with a chainmail coif and padding. Lightweight and protective, the open face provides less complete protection of the entire head, but is less hindering to vision and breathing than a closed Sallet.</description>
+    <graphicData>
+      <texPath>Fur/SalletOpenFur/SalletOpenFurBrown/SalletOpenFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+      
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+ 
+	  <costStuffCount>30</costStuffCount>
+
+ <apparel>
+      <wornGraphicPath>Fur/SalletOpenFur/SalletOpenFurBrown/SalletOpenFurBrown</wornGraphicPath>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+ </apparel>
+</ThingDef>
+  
+   <!-- Black -->
+   <ThingDef ParentName="Joe_SalletOpenFurBase">
+            <defName>Joe_SalletOpenFurBlack</defName>
+        <label>winter hooded open sallet (black)</label>
+        <graphicData>
+            <texPath>Fur/SalletOpenFur/SalletOpenFurBlack/SalletOpenFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletOpenFur/SalletOpenFurBlack/SalletOpenFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- Gold -->
+   <ThingDef ParentName="Joe_SalletOpenFurBase">
+            <defName>Joe_SalletOpenFurGold</defName>
+        <label>winter hooded open sallet (gold)</label>
+        <graphicData>
+            <texPath>Fur/SalletOpenFur/SalletOpenFurGold/SalletOpenFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletOpenFur/SalletOpenFurGold/SalletOpenFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- White -->
+   <ThingDef ParentName="Joe_SalletOpenFurBase">
+            <defName>Joe_SalletOpenFurWhite</defName>
+        <label>winter hooded open sallet (white)</label>
+        <graphicData>
+            <texPath>Fur/SalletOpenFur/SalletOpenFurWhite/SalletOpenFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletOpenFur/SalletOpenFurWhite/SalletOpenFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- SalletVisoredFur -->
+   <!-- Brown -->
+  <ThingDef ParentName="Joe_SalletHoodedBase" Name="Joe_SalletVisoredFurBase">
+    <defName>Joe_SalletVisoredFurBrown</defName>
+    <label>winter hooded visored sallet (brown)</label>
+    <description>A sleek three-part hooded helmet that provides insulation against the cold. Consisting of a top, visor, and bevor to protect the head, face, respectively. Lightweight, and very protective, though it hinders eyesight significantly.</description>
+    <graphicData>
+        <texPath>Fur/SalletVisoredFur/SalletVisoredFurBrown/SalletVisoredFurBrown</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>30</costStuffCount>
+    
+    <apparel>
+        <wornGraphicPath>Fur/SalletVisoredFur/SalletVisoredFurBrown/SalletVisoredFurBrown</wornGraphicPath>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+</ThingDef>
+  
+  <!-- Black -->
+   <ThingDef ParentName="Joe_SalletVisoredFurBase">
+            <defName>Joe_SalletVisoredFurBlack</defName>
+        <label>winter hooded visored sallet (black)</label>
+        <graphicData>
+            <texPath>Fur/SalletVisoredFur/SalletVisoredFurBlack/SalletVisoredFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletVisoredFur/SalletVisoredFurBlack/SalletVisoredFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!-- Gold -->
+   <ThingDef ParentName="Joe_SalletVisoredFurBase">
+            <defName>Joe_SalletVisoredFurGold</defName>
+        <label>winter hooded visored sallet (gold)</label>
+        <graphicData>
+            <texPath>Fur/SalletVisoredFur/SalletVisoredFurGold/SalletVisoredFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletVisoredFur/SalletVisoredFurGold/SalletVisoredFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!-- White -->
+   <ThingDef ParentName="Joe_SalletVisoredFurBase">
+            <defName>Joe_SalletVisoredFurWhite</defName>
+        <label>winter hooded visored sallet (white)</label>
+        <graphicData>
+            <texPath>Fur/SalletVisoredFur/SalletVisoredFurWhite/SalletVisoredFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletVisoredFur/SalletVisoredFurWhite/SalletVisoredFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- SalletGryphonFur -->
+   <!-- Brown -->
+  <ThingDef ParentName="Joe_SalletVisoredFurBase">
+    <defName>Joe_SalletGryphonFurBrown</defName>
+    <label>winter hooded gryphon sallet (brown)</label>
+    <graphicData>
+            <texPath>Fur/SalletGryphonFur/SalletGryphonFurBrown/SalletGryphonFurBrown</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletGryphonFur/SalletGryphonFurBrown/SalletGryphonFurBrown</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!-- Black -->
+  <ThingDef ParentName="Joe_SalletVisoredFurBase">
+    <defName>Joe_SalletGryphonFurBlack</defName>
+    <label>winter hooded gryphon sallet (black)</label>
+     <graphicData>
+            <texPath>Fur/SalletGryphonFur/SalletGryphonFurBlack/SalletGryphonFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletGryphonFur/SalletGryphonFurBlack/SalletGryphonFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+     <!-- Gold -->
+  <ThingDef ParentName="Joe_SalletVisoredFurBase">
+    <defName>Joe_SalletGryphonFurGold</defName>
+    <label>winter hooded gryphon sallet (gold)</label>
+    <graphicData>
+            <texPath>Fur/SalletGryphonFur/SalletGryphonFurGold/SalletGryphonFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletGryphonFur/SalletGryphonFurGold/SalletGryphonFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+       <!-- White -->
+  <ThingDef ParentName="Joe_SalletVisoredFurBase">
+    <defName>Joe_SalletGryphonFurWhite</defName>
+    <label>winter hooded gryphon sallet (white)</label>
+     <graphicData>
+            <texPath>Fur/SalletGryphonFur/SalletGryphonFurWhite/SalletGryphonFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/SalletGryphonFur/SalletGryphonFurWhite/SalletGryphonFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  
+  <!-- Chain Armor (uses Iron) -->
+  <!-- ChainClosedFlatTopFur-->
+  <!-- Brown -->
+  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_ChainClosedFlatTopFurBase">
+    <defName>Joe_ChainClosedFlatTopFurBrown</defName>
+    <label>winter hooded chain closed flat-top (brown)</label>
+    <description>An early design of the full-faced helmet, consisting of a reinforced hooded flat-top helmet that provides insulation against the cold, with an additional face-plate and a mail coif. Offers great protection of the entire head, but hinders eyesight and breathing.</description>
+    <graphicData>
+      <texPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurBrown/ChainClosedFlatTopFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	     <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+      <costList>
+        <DankPyon_IronIngot>80</DankPyon_IronIngot>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+
+		<stuffCategories>
+			<li>Fabric</li>
+            <li>Leathery</li>
+		</stuffCategories>
+	  <costStuffCount>30</costStuffCount>
+
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurBrown/ChainClosedFlatTopFurBrown</wornGraphicPath>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_MercenaryHeavy</li>
+        <li>DankPyon_KnightHelmet</li>
+        <li>DankPyon_HedgeKnightHelmet</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+        <!-- Black -->
+  <ThingDef ParentName="Joe_ChainClosedFlatTopFurBase">
+    <defName>Joe_ChainClosedFlatTopFurBlack</defName>
+    <label>winter hooded chain closed flat-top (black)</label>
+    <graphicData>
+            <texPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurBlack/ChainClosedFlatTopFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurBlack/ChainClosedFlatTopFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+     <!-- Gold -->
+  <ThingDef ParentName="Joe_ChainClosedFlatTopFurBase">
+    <defName>Joe_ChainClosedFlatTopFurGold</defName>
+    <label>winter hooded chain closed flat-top (gold)</label>
+     <graphicData>
+            <texPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurGold/ChainClosedFlatTopFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurGold/ChainClosedFlatTopFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+    <!-- White -->
+  <ThingDef ParentName="Joe_ChainClosedFlatTopFurBase">
+    <defName>Joe_ChainClosedFlatTopFurWhite</defName>
+    <label>winter hooded chain closed flat-top (white)</label>
+    <graphicData>
+            <texPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurWhite/ChainClosedFlatTopFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurWhite/ChainClosedFlatTopFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!-- ChainNasalFur-->
+  <!-- Brown -->
+  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_ChainNasalFurBase">
+    <defName>Joe_ChainNasalFurBrown</defName>
+    <label>winter hooded chain nasal helm</label>
+    <description>A chainmail coif coupled with a hooded simple round nasal helmet that provides insulation against the cold, and offers excellent physical protection for the head.</description>
+    <graphicData>
+      <texPath>Fur/ChainNasalFur/ChainNasalFurBrown/ChainNasalFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	     <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+      <costList>
+        <DankPyon_IronIngot>70</DankPyon_IronIngot>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-1.5</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+	<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>30</costStuffCount>
+    
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+        
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/ChainNasalFur/ChainNasalFurBrown/ChainNasalFurBrown</wornGraphicPath>
+	     <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_BrigandLeader</li>
+				<li>DankPyon_FootmanHelmet</li>
+        <li>DankPyon_MercenaryHeavy</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+      <!-- Black -->
+  <ThingDef ParentName="Joe_ChainNasalFurBase">
+    <defName>Joe_ChainNasalFurBlack</defName>
+    <label>winter hooded chain closed flat-top (black)</label>
+    <graphicData>
+            <texPath>Fur/ChainNasalFur/ChainNasalFurBlack/ChainNasalFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ChainNasalFur/ChainNasalFurBlack/ChainNasalFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  
+      <!-- Gold -->
+  <ThingDef ParentName="Joe_ChainNasalFurBase">
+    <defName>Joe_ChainNasalFurGold</defName>
+    <label>winter hooded chain closed flat-top (gold)</label>
+    <graphicData>
+            <texPath>Fur/ChainNasalFur/ChainNasalFurGold/ChainNasalFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ChainNasalFur/ChainNasalFurGold/ChainNasalFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+     <!-- White -->
+  <ThingDef ParentName="Joe_ChainNasalFurBase">
+    <defName>Joe_ChainNasalFurWhite</defName>
+    <label>winter hooded chain closed flat-top (white)</label>
+    <graphicData>
+            <texPath>Fur/ChainNasalFur/ChainNasalFurWhite/ChainNasalFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ChainNasalFur/ChainNasalFurWhite/ChainNasalFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+  <!-- ClosedChainFlatTopFur-->
+  <!-- Brown -->
+  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_ClosedChainFlatTopFurBase">
+    <defName>Joe_ClosedChainFlatTopFurBrown</defName>
+    <label>winter hooded closed chain flat-top (brown)</label>
+    <description>A strong medieval hooded helmet that provides insulation against the cold. Covering the full-head, it offers fantastic protection, but one's vision is grealy obscured. Thus it is only recommended for front line infantry, particularly those foregoing shields.</description>
+    <graphicData>
+      <texPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurBrown/ClosedChainFlatTopFurBrown</texPath>
+	    <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+      <costList>
+        <DankPyon_IronIngot>70</DankPyon_IronIngot>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-1.5</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+	<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>30</costStuffCount>
+
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+        
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurBrown/ClosedChainFlatTopFurBrown</wornGraphicPath>
+	     <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_BrigandLeader</li>
+        <li>DankPyon_FootmanHelmet</li>
+        <li>DankPyon_MercenaryHelmet</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>  
+  
+       <!-- Black -->
+  <ThingDef ParentName="Joe_ClosedChainFlatTopFurBase">
+    <defName>Joe_ClosedChainFlatTopFurBlack</defName>
+    <label>winter hooded chain closed flat-top (black)</label>
+    <graphicData>
+            <texPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurBlack/ClosedChainFlatTopFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurBlack/ClosedChainFlatTopFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+     <!-- Gold -->
+  <ThingDef ParentName="Joe_ClosedChainFlatTopFurBase">
+    <defName>Joe_ClosedChainFlatTopFurGold</defName>
+    <label>winter hooded chain closed flat-top (gold)</label>
+    <graphicData>
+            <texPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurGold/ClosedChainFlatTopFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurGold/ClosedChainFlatTopFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+     <!-- White -->
+  <ThingDef ParentName="Joe_ClosedChainFlatTopFurBase">
+    <defName>Joe_ClosedChainFlatTopFurWhite</defName>
+    <label>winter hooded chain closed flat-top (white)</label>
+    <graphicData>
+            <texPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurWhite/ClosedChainFlatTopFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurWhite/ClosedChainFlatTopFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  
+   <!--HeavyBarbruteFur-->
+   <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_HeavyBarbruteFurBase">
+    <defName>Joe_HeavyBarbruteFurBrown</defName>
+    <label>winter hooded heavy barbrute (brown)</label>
+    <description>A chainmail coif coupled with a visorless hooded war helmet that provides insulation against the cold. Covering the full-head, it offers fantastic protection, with a distinctive "T" shaped opening for the eyes and mouth. Greatly obscures vision and makes breathing difficult.</description>
+    <graphicData>
+      <texPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurBrown/HeavyBarbruteFurBrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+      <costList>
+        <DankPyon_IronIngot>70</DankPyon_IronIngot>
+      </costList>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+
+		<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>30</costStuffCount>
+
+    <apparel>
+       <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurBrown/HeavyBarbruteFurBrown</wornGraphicPath>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+      <tags>
+        <li>DankPyon_MercenaryHeavy</li>
+        <li>DankPyon_KnightHelmet</li>
+        <li>DankPyon_HedgeKnightHelmet</li>
+			</tags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  </Defs>
+
+ <!-- Black -->
+  <ThingDef ParentName="Joe_HeavyBarbruteFurBase">
+    <defName>Joe_HeavyBarbruteFurBlack</defName>
+    <label>winter hooded heavy barbrute (black)</label>
+    <graphicData>
+            <texPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurBlack/HeavyBarbruteFurBlack</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurBlack/HeavyBarbruteFurBlack</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+ <!-- Gold -->
+  <ThingDef ParentName="Joe_HeavyBarbruteFurBase">
+    <defName>Joe_HeavyBarbruteFurGold</defName>
+    <label>winter hooded heavy barbrute (gold)</label>
+    <graphicData>
+            <texPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurGold/HeavyBarbruteFurGold</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurGold/HeavyBarbruteFurGold</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+ <!-- White -->
+  <ThingDef ParentName="Joe_HeavyBarbruteFurBase">
+    <defName>Joe_HeavyBarbruteFurWhite</defName>
+    <label>winter hooded heavy barbrute (white)</label>
+    <graphicData>
+            <texPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurWhite/HeavyBarbruteFurWhite</texPath>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurWhite/HeavyBarbruteFurWhite</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+  </Defs>
+
+
+
+
+
+  
+  
+  
+  
