@@ -6,7 +6,7 @@
 <!-- ArmetHooded -->
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Joe_ArmetHooded</defName>
-    <label>armet</label>
+    <label>hooded armet</label>
     <description>A finely crafted, ergonomically shaped hooded plate helmet that provides complete protection of the entire head, face,, shaped in such a way to optimize deflection of what would otherwise be direct blows.</description>
     <graphicData>
       <texPath>ArmetHooded/ArmetHooded</texPath>
@@ -72,7 +72,7 @@
   <!--BascinetHooded-->
   <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_BascinetHoodedBase">
     <defName>Joe_BascinetHooded</defName>
-    <label>closed bascinet helmet</label>
+    <label>closed hooded bascinet helmet</label>
     <description>A thick plate hooded bascinet helmet coupled with a round-faced visor, paired with a chainmail coif and padding. Provides complete protection of the entire head, but is hindering to see and difficult to breathe in.</description>
     <graphicData>
       <texPath>BascinetHooded/BascinetHooded</texPath>
@@ -139,7 +139,7 @@
     <!-- OpenBascinetHooded -->
  <ThingDef ParentName="Joe_BascinetHoodedBase">
     <defName>Joe_OpenBascinetHooded</defName>
-    <label>open bascinet</label>
+    <label>hooded open bascinet</label>
     <description>A thick plate open-faced hooded bascinet helmet, paired with a chainmail coif and padding. Provides less complete protection of the entire head, but is less hindering to see and difficult to breathe in than a closed bascinet.</description>
     <graphicData>
       <texPath>OpenBascinetHooded/OpenBascinetHooded</texPath>
@@ -164,6 +164,12 @@
     <equippedStatOffsets>
       <ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
     </equippedStatOffsets>
+	 
+	 	<stuffCategories>
+			<li>Fabric</li>
+            <li>Leathery</li>
+		</stuffCategories>
+	  <costStuffCount>25</costStuffCount>
 
  <apparel>
       <wornGraphicPath>OpenBascinetHooded/OpenBascinetHooded</wornGraphicPath>
@@ -179,7 +185,7 @@
   <!-- GreatHelmHooded-->
    <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Joe_GreatHelmHooded</defName>
-    <label>great helm</label>
+    <label>hooded great helm</label>
     <description>An early design of the close helm, which is worn over a very thickly padded fabric coif and covered by a hood. Provides excellent protection to the entire head, but, like with most full-face helmets, limits one's field of vision and constricts breathing when worn.</description>
     <graphicData>
       <texPath>GreatHelmHooded/GreatHelmHooded</texPath>
@@ -246,7 +252,7 @@
   <!--KlappvisorBascinetHooded-->
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Joe_KlappvisorBascinetHooded</defName>
-    <label>klappviser bascinet</label>
+    <label>hooded klappviser bascinet</label>
     <description>A thick plate hooded bascinet helmet coupled with a round-faced visor, paired with a chainmail coif and padding. Provides complete protection of the entire head, but is hindering to see and difficult to breathe in.</description>
     <graphicData>
       <texPath>KlappvisorBascinetHooded/KlappvisorBascinetHooded</texPath>
@@ -312,11 +318,11 @@
 
   <!-- SalletVisored(Base) -->
 <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_SalletHoodedBase">
-    <defName>DankPyon_Headgear_SalletHelmet</defName>
-    <label>visored sallet</label>
+    <defName>Joe_SalletVisoredHooded</defName>
+    <label>hooded visored sallet</label>
     <description>A sleek three-part hooded helmet consisting of a top, visor, and bevor to protect the head, face, respectively. Lightweight, and very protective, though it hinders eyesight significantly.</description>
     <graphicData>
-        <texPath>Headgear/SalletVisored/SalletVisored</texPath>
+        <texPath>SalletVisoredHooded/SalletVisoredHooded</texPath>
         <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -331,6 +337,9 @@
             <Crafting>8</Crafting>
         </skillRequirements>
         <researchPrerequisite>PlateArmor</researchPrerequisite>
+	  <costList>
+        <steel>80</steel>
+      </costList>
     </recipeMaker>
 
     <statBases>
@@ -348,16 +357,17 @@
         <SocialImpact>0.15</SocialImpact>
     </equippedStatOffsets>
 
-    <stuffCategories>
-        <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>80</costStuffCount> 
+    		<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>25</costStuffCount>
 
     <apparel>
         <bodyPartGroups>
             <li>FullHead</li>
         </bodyPartGroups>
-        <wornGraphicPath>Headgear/SalletVisored/SalletVisored</wornGraphicPath>
+        <wornGraphicPath>SalletVisoredHooded/SalletVisoredHooded</wornGraphicPath>
 	    <useWornGraphicMask>true</useWornGraphicMask>
         <tags>
             <li>DankPyon_KnightHelmet</li>
@@ -374,8 +384,8 @@
 
  <!-- SalletGryphonHooded -->
   <ThingDef ParentName="Joe_SalletHoodedBase">
-    <defName>DankPyon_Headgear_SalletGryphon</defName>
-    <label>gryphon sallet</label>
+    <defName>Joe_SalletGryphonHooded</defName>
+    <label>hooded gryphon sallet</label>
     <description>A sleek three-part hooded helmet consisting of a top, visor, and bevor to protect the head, face, respectively. Lightweight, and very protective, though it hinders eyesight significantly.</description>
     <graphicData>
         <texPath>SalletGryphonHooded/SalletGryphonHooded</texPath>
@@ -390,9 +400,9 @@
 </ThingDef>
 
   <!-- SalletOpenHooded -->
-    <ThingDef ParentName="Joe_SalletHoodedBase">
-    <defName>DankPyon_Headgear_SalletGryphon</defName>
-    <label>open sallet</label>
+    <ThingDef ParentName="Joe_SalletHoodedBase" Name="Joe_SalletOpenHoodedBase">
+    <defName>Joe_SalletOpenHooded</defName>
+    <label>hooded open sallet</label>
     <description>A sleek open-faced hooded helmet, paired with a chainmail coif and padding. Lightweight and protective, the open face provides less complete protection of the entire head, but is less hindering to vision and breathing than a closed Sallet.</description>
     <graphicData>
       <texPath>SalletOpenHooded/SalletOpenHooded</texPath>
@@ -437,7 +447,7 @@
   <!-- ChainClosedFlatTopHooded-->
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Joe_ChainClosedFlatTopHooded</defName>
-    <label>chain closed flat-top</label>
+    <label>hooded chain closed flat-top</label>
     <description>An early design of the full-faced helmet, consisting of a reinforced hooded flat-top helmet with an additional face-plate and a mail coif. Offers great protection of the entire head, but hinders eyesight and breathing.</description>
     <graphicData>
       <texPath>ChainClosedFlatTopHooded/ChainClosedFlatTopHooded</texPath>
@@ -502,7 +512,7 @@
   <!-- ChainNasalHooded-->
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Joe_ChainNasalHooded</defName>
-    <label>chain nasal helm</label>
+    <label>hooded chain nasal helm</label>
     <description>A chainmail coif coupled with a hooded simple round nasal helmet, offering excellent protection of the head.</description>
     <graphicData>
       <texPath>ChainNasalHooded/ChainNasalHooded</texPath>
@@ -568,7 +578,7 @@
   <!-- ClosedChainFlatTopHooded-->
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Joe_ClosedChainFlatTopHooded</defName>
-    <label>closed chain flat-top</label>
+    <label>hooded closed chain flat-top</label>
     <description>A strong medieval hooded helmet that provides full-head coverage. While it offers fantastic protection, ones vision is grealy obscured, thus it is only recommended for front line infantry, particularly those foregoing shields.</description>
     <graphicData>
       <texPath>ClosedChainFlatTopHooded/ClosedChainFlatTopHooded</texPath>
@@ -635,7 +645,7 @@
   <!--HeavyBarbruteHooded-->
    <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Joe_HeavyBarbruteHooded</defName>
-    <label>heavy barbrute</label>
+    <label>hooded heavy barbrute</label>
     <description>A chainmail coif coupled with a visorless hooded war helmet that provides full head protection, with a distinctive "T" shaped opening for the eyes and mouth. Greatly obscures vision and makes breathing difficult.</description>
     <graphicData>
       <texPath>HeavyBarbruteHooded/HeavyBarbruteHooded</texPath>
