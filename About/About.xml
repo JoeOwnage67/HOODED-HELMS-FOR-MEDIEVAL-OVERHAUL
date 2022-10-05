@@ -9,7 +9,6 @@
   
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
-		<li IfModActive="Harkon.DF.Dusk">Harkon.DF.Dusk</li>
 	</loadAfter>
 
 	<modDependencies>
@@ -18,5 +17,5 @@
 		  <displayName>Medieval Overhaul</displayName>
 	  </li>
     </modDependencies>
-	<description>An addon for Medieval Overhaul. Adds Hooded Helms (apparel items)</description>
+	<description>An addon for Medieval Overhaul. Adds Hooded Helms (apparel items). Adds winter variations if Dusk Armory is detected as installed (uses art from Dusk)</description>
 </ModMetaData>
