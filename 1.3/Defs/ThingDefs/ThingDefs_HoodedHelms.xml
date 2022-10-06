@@ -576,26 +576,28 @@
     <defName>Joe_ClosedChainFlatTopHooded</defName>
     <label>hooded closed chain flat-top</label>
     <description>A strong medieval hooded helmet that provides full-head coverage. While it offers fantastic protection, ones vision is grealy obscured, thus it is only recommended for front line infantry, particularly those foregoing shields.</description>
+    
     <graphicData>
       <texPath>ClosedChainFlatTopHooded/ClosedChainFlatTopHooded</texPath>
-	    <shaderType>CutoutComplex</shaderType>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+	  
     <techLevel>Medieval</techLevel>
+	  
     <recipeMaker>
       <recipeUsers>
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
         <li>DankPyon_Anvil</li>
-      </recipeUsers>
+      </recipeUsers>	    
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
       <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
     </recipeMaker>
 	  
-	<costList>
+      <costList>
         <DankPyon_IronIngot>70</DankPyon_IronIngot>
       </costList>
 
@@ -608,6 +610,7 @@
       <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
+	  
     <equippedStatOffsets>
       <ShootingAccuracyPawn>-1.5</ShootingAccuracyPawn>
     </equippedStatOffsets>
