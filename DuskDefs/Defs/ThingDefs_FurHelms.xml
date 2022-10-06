@@ -883,7 +883,6 @@
     <description>A strong medieval hooded helmet that provides insulation against the cold. Covering the full-head, it offers fantastic protection, but one's vision is grealy obscured. Thus it is only recommended for front line infantry, particularly those foregoing shields.</description>
     <graphicData>
       <texPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurBrown/ClosedChainFlatTopFurBrown</texPath>
-	    <shaderType>CutoutComplex</shaderType>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
