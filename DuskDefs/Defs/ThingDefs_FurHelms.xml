@@ -1043,7 +1043,7 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-  </Defs>
+  
 
  <!-- Black -->
   <ThingDef ParentName="Joe_HeavyBarbruteFurBase">
