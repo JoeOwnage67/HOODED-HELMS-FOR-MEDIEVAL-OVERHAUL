@@ -26,7 +26,7 @@
       <researchPrerequisite>PlateArmor</researchPrerequisite>
     </recipeMaker>
 	      <costList>
-        <steel>80</steel>
+        <Steel>80</Steel>
       </costList>
 
     <statBases>
@@ -129,7 +129,7 @@
       <researchPrerequisite>PlateArmor</researchPrerequisite>
     </recipeMaker>
 	     <costList>
-        <steel>80</steel>
+        <Steel>80</Steel>
       </costList>
 
     <statBases>
@@ -222,7 +222,7 @@
 	    <shaderType>CutoutComplex</shaderType>
     </graphicData>
      <costList>
-        <steel>60</steel>
+        <Steel>60</Steel>
       </costList> 
 
     <statBases>
@@ -313,9 +313,9 @@
       </skillRequirements>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
     </recipeMaker>
-	    <costList>
-        <steel>80</steel>
-      </costList>
+	   <costList>
+		   <Steel>80</Steel>     
+	   </costList>
 
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -417,7 +417,7 @@
       <researchPrerequisite>PlateArmor</researchPrerequisite>
     </recipeMaker>
 	  <costList>
-        <steel>80</steel>
+        <Steel>80</Steel>
       </costList>
 
     <statBases>
