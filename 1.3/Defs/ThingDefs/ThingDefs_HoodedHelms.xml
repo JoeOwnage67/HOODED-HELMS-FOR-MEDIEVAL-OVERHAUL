@@ -24,10 +24,10 @@
         <Crafting>12</Crafting>
       </skillRequirements>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
-      <costList>
+    </recipeMaker>
+	    <costList>
         <steel>80</steel>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>25000</WorkToMake>
@@ -90,10 +90,10 @@
         <Crafting>8</Crafting>
       </skillRequirements>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
-       <costList>
+    </recipeMaker>
+	 <costList>
         <steel>80</steel>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -146,11 +146,9 @@
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <recipeMaker>
-      <costList>
+    <costList>
         <steel>60</steel>
-      </costList>  
-    </recipeMaker>
+      </costList> 
 
     <statBases>
       <WorkToMake>12000</WorkToMake>
@@ -203,10 +201,10 @@
         <Crafting>8</Crafting>
       </skillRequirements>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
-      <costList>
+    </recipeMaker>
+	     <costList>
         <steel>80</steel>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -270,10 +268,10 @@
         <Crafting>8</Crafting>
       </skillRequirements>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
-       <costList>
+    </recipeMaker>
+	   <costList>
         <steel>80</steel>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -337,10 +335,10 @@
             <Crafting>8</Crafting>
         </skillRequirements>
         <researchPrerequisite>PlateArmor</researchPrerequisite>
-	  <costList>
+    </recipeMaker>
+	 <costList>
         <steel>80</steel>
       </costList>
-    </recipeMaker>
 
     <statBases>
         <WorkToMake>20000</WorkToMake>
@@ -409,11 +407,9 @@
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <recipeMaker>
-      <costList>
+     <costList>
         <steel>70</steel>
       </costList>  
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>16000</WorkToMake>
@@ -465,10 +461,10 @@
         <Crafting>7</Crafting>
       </skillRequirements>
       <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
-      <costList>
+    </recipeMaker>
+	  <costList>
         <DankPyon_IronIngot>80</DankPyon_IronIngot>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>18000</WorkToMake>
@@ -530,10 +526,10 @@
         <Crafting>6</Crafting>
       </skillRequirements>
       <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
-      <costList>
+    </recipeMaker>
+	   <costList>
         <DankPyon_IronIngot>70</DankPyon_IronIngot>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>16000</WorkToMake>
@@ -597,10 +593,11 @@
         <Crafting>6</Crafting>
       </skillRequirements>
       <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
-      <costList>
+    </recipeMaker>
+	  
+	<costList>
         <DankPyon_IronIngot>70</DankPyon_IronIngot>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>16000</WorkToMake>
@@ -663,10 +660,10 @@
         <Crafting>7</Crafting>
       </skillRequirements>
       <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
-      <costList>
+    </recipeMaker>
+	     <costList>
         <DankPyon_IronIngot>70</DankPyon_IronIngot>
       </costList>
-    </recipeMaker>
 
     <statBases>
       <WorkToMake>16000</WorkToMake>
