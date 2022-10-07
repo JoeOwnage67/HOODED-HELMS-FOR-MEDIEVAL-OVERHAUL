@@ -11,7 +11,8 @@
     <graphicData>
       <texPath>Fur/ArmetFur/ArmetFurBrown/ArmetFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass> 
-      <shaderType>CutoutComplex</shaderType>	 
+      <shaderType>CutoutComplex</shaderType>
+      <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -115,6 +116,7 @@
       <texPath>Fur/BascinetFur/BascinetFurBrown/BascinetFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -220,6 +222,7 @@
       <texPath>Fur/OpenBascinetFur/OpenBascinetFurBrown/OpenBascinetFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
      <costList>
         <Steel>60</Steel>
@@ -300,6 +303,7 @@
       <texPath>Fur/GreatHelmFur/GreatHelmFurBrown/GreatHelmFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -403,6 +407,7 @@
       <texPath>Fur/KlappvisorBascinetFur/KlappvisorBascinetFurBrown/KlappvisorBascinetFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -507,6 +512,7 @@
       <texPath>Fur/SalletOpenFur/SalletOpenFurBrown/SalletOpenFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
       
     <statBases>
@@ -573,6 +579,7 @@
         <texPath>Fur/SalletVisoredFur/SalletVisoredFurBrown/SalletVisoredFurBrown</texPath>
         <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <costStuffCount>30</costStuffCount>
     
@@ -679,6 +686,7 @@
       <texPath>Fur/ChainClosedFlatTopFur/ChainClosedFlatTopFurBrown/ChainClosedFlatTopFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	     <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -781,6 +789,7 @@
       <texPath>Fur/ChainNasalFur/ChainNasalFurBrown/ChainNasalFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	     <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -885,6 +894,7 @@
       <texPath>Fur/ClosedChainFlatTopFur/ClosedChainFlatTopFurBrown/ClosedChainFlatTopFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -987,6 +997,7 @@
       <texPath>Fur/HeavyBarbruteFur/HeavyBarbruteFurBrown/HeavyBarbruteFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
