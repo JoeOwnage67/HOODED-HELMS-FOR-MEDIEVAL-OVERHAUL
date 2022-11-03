@@ -12,7 +12,6 @@
       <texPath>ArmetHooded/ArmetHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass> 
       <shaderType>CutoutComplex</shaderType>	 
-      <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -79,7 +78,6 @@
       <texPath>BascinetHooded/BascinetHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -147,7 +145,6 @@
       <texPath>OpenBascinetHooded/OpenBascinetHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <costList>
         <Steel>60</Steel>
@@ -192,7 +189,6 @@
       <texPath>GreatHelmHooded/GreatHelmHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -260,7 +256,6 @@
       <texPath>KlappvisorBascinetHooded/KlappvisorBascinetHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -328,7 +323,6 @@
         <texPath>SalletVisoredHooded/SalletVisoredHooded</texPath>
         <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -395,7 +389,6 @@
         <texPath>SalletGryphonHooded/SalletGryphonHooded</texPath>
         <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     
     <apparel>
@@ -413,7 +406,6 @@
       <texPath>SalletOpenHooded/SalletOpenHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
      <costList>
         <Steel>70</Steel>
@@ -457,7 +449,6 @@
       <texPath>ChainClosedFlatTopHooded/ChainClosedFlatTopHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	     <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -523,7 +514,6 @@
       <texPath>ChainNasalHooded/ChainNasalHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	     <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -591,7 +581,6 @@
       <texPath>ClosedChainFlatTopHooded/ClosedChainFlatTopHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
 	  
     <techLevel>Medieval</techLevel>
@@ -662,7 +651,6 @@
       <texPath>HeavyBarbruteHooded/HeavyBarbruteHooded</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-	    <colorTwo>(58,73,158)</colorTwo>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
