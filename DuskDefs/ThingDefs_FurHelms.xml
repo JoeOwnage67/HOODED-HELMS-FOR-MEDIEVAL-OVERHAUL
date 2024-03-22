@@ -7,7 +7,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase" Name="Joe_ArmetFurBase">
     <defName>Joe_ArmetFurBrown</defName>
     <label>winter hooded armet (brown)</label>
-    <description>A finely crafted, ergonomically shaped hooded plate helmet that provides insulation against the cold, as well as complete protection of the entire head, face,, shaped in such a way to optimize deflection of what would otherwise be direct blows.</description>
+    <description>A finely crafted, ergonomically shaped hooded plate helmet that provides insulation against the cold, as well as complete protection of the entire head, face, shaped in such a way to optimize deflection of what would otherwise be direct blows.</description>
     <graphicData>
       <texPath>Fur/ArmetFur/ArmetFurBrown/ArmetFurBrown</texPath>
       <graphicClass>Graphic_Single</graphicClass> 
@@ -33,9 +33,12 @@
       <WorkToMake>25000</WorkToMake>
       <MaxHitPoints>270</MaxHitPoints>
       <Mass>3.5</Mass>
-      <StuffEffectMultiplierArmor>1.05</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -136,9 +139,12 @@
       <WorkToMake>20000</WorkToMake>
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>3.5</Mass>
-      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -229,9 +235,12 @@
       <WorkToMake>12000</WorkToMake>
       <MaxHitPoints>120</MaxHitPoints>
       <Mass>3.0</Mass>
-      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>6</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -321,9 +330,12 @@
       <WorkToMake>20000</WorkToMake>
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>3.5</Mass>
-      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -424,9 +436,12 @@
       <WorkToMake>20000</WorkToMake>
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>3.5</Mass>
-      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -513,9 +528,12 @@
       <WorkToMake>16000</WorkToMake>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>3.0</Mass>
-      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>6</EquipDelay>
     </statBases>
  
@@ -574,6 +592,14 @@
         <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
     </graphicData>
+     <statBases>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
     <costStuffCount>30</costStuffCount>
     
     <apparel>
@@ -700,9 +726,12 @@
       <WorkToMake>18000</WorkToMake>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>3.5</Mass>
-      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -802,9 +831,12 @@
       <WorkToMake>16000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>3</Mass>
-      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -907,9 +939,12 @@
       <WorkToMake>16000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>3</Mass>
-      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -1009,9 +1044,12 @@
       <WorkToMake>16000</WorkToMake>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>3.5</Mass>
-      <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
