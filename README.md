@@ -15,14 +15,30 @@ Hooded Helms Add-On for Medieval Overhaul
 - Adds winter hooded variations in four colours for most of Medieval Overhaul's helms if Dusk Armory is detected as installed. (uses art from DUSK ARMORY by HARKON & JangoD'SOUL - Thank you!)
 
 **LINKS**
+				
+HOODED HELMS ADDON FOR MEDIEVAL OVERHAUL (THIS MOD):				
+				
+https://github.com/JoeOwnage67/Hooded-Helms-addon-for-Medieval-Overhaul		
 
-THIS MOD:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2872166785		
 
-https://github.com/JoeOwnage67/Hooded-Helms-addon-for-Medieval-Overhaul
+MEDIEVAL MEDICINES - MEDIEVAL OVERHAUL EDITION:				
+				
+https://github.com/JoeOwnage67/MedievalMedicines-Medieval-Overhaul-Edition/
 
-DUSK ARMORY MEDIEVAL PATCH:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2883228057			
 
-https://github.com/JoeOwnage67/DuskArmoryMedievalPatch/
+FARMABLE NEUTROAMINE - MEDIEVAL:				
+				
+https://github.com/JoeOwnage67/Farmable-Neutroamine-Medieval	
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2826944163				
+				
+DUSK ARMORY MEDIEVAL PATCH:				
+				
+https://github.com/JoeOwnage67/DuskArmoryMedievalPatch		
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2869291037				
 
 **UPDATES**
 
