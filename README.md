@@ -18,6 +18,10 @@ THIS MOD:
 
 https://github.com/JoeOwnage67/Hooded-Helms-addon-for-Medieval-Overhaul
 
+DUSK ARMORY MEDIEVAL PATCH:
+
+https://github.com/JoeOwnage67/DuskArmoryMedievalPatch/
+
 **UPDATES**
 
 March 2024:
