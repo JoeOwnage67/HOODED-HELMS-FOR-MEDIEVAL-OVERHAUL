@@ -15,4 +15,9 @@
     <li>1.5</li>
     <li IfModActive="Harkon.DF.Dusk">DuskDefs</li>
   </v1.5>
+  <v1.6>
+    <li></li>
+    <li>1.6</li>
+    <li IfModActive="Harkon.DF.Dusk">DuskDefs</li>
+  </v1.6>
 </loadFolders>
